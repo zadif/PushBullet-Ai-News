@@ -1,0 +1,20 @@
+{
+  "name": "ai-news-aggregator",
+  "version": "1.0.0",
+  "description": "AI news aggregator for daily tech news",
+  "main": "news.js",
+  "type": "module",
+  "scripts": {
+    "start": "node news.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "newsapi": "^2.4.1",
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "@google/genai": "^0.1.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
