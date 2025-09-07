@@ -9,12 +9,14 @@
     "build": "echo 'No build step required'"
   },
   "dependencies": {
-    "newsapi": "^2.4.1",
-    "axios": "^1.6.2",
-    "cheerio": "^1.0.0-rc.12",
-    "@google/genai": "^0.1.0"
+   "newsapi": "^2.4.1",
+     "axios": "^1.11.0",
+    "cheerio": "^1.1.0",
+    "@google/genai": "^1.17.0",
+    "mime": "^4.0.7"
   },
   "engines": {
     "node": "18.x"
   }
 }
+
