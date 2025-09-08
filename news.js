@@ -145,7 +145,8 @@ async function main() {
     });
   }
 }
-
+ main();
 setInterval(() => {
   main();
 }, 24 * 60 * 60 * 1000);
+
